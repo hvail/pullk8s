@@ -5,7 +5,7 @@
 init(){
   sudo apt install update
   echo "Insert Microk8s"
-  sudo snap install microk8s --class --channel=1.28
+  sudo snap install microk8s --classic --channel=1.28
   echo "Insert Docker"
   sudo apt install docker.io
   echo "add current user and group "
