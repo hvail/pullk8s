@@ -22,13 +22,13 @@ pull_images(){
   pullk8s pull registry.k8s.io/metrics-server/metrics-server:v0.6.3 --microk8s
 }
 
-if [ "$1"x == "init"x]
+if [ "$1"x == "init"x ]
 then
   init
   exit 0
 fi
 
-if [ "$1"x == "pull_images"x]
+if [ "$1"x == "pull_images"x ]
 then
   pull_images
 fi
