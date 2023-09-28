@@ -5,7 +5,7 @@ Pull gcr.io's image for hub.docker.com tools
 
 # Install
 ```
-sudo curl -L "https://raw.githubusercontent.com/OpsDocker/pullk8s/main/pullk8s.sh" -o /usr/local/bin/pullk8s
+sudo curl -L "https://raw.githubusercontent.com/hvail/pullk8s/main/pullk8s.sh" -o /usr/local/bin/pullk8s
 sudo chmod +x /usr/local/bin/pullk8s
 ```
 
