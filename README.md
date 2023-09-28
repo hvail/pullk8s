@@ -12,6 +12,7 @@ sudo chmod +x /usr/local/bin/pullk8s
 # MicroK8s Init
 ```
 sudo curl -L "https://raw.githubusercontent.com/hvail/pullk8s/main/microk8s-init.sh" -o ./microk8s_init.sh
+sudo chmod +x ./microk8s_init.sh
 ```
 
 # Usage
