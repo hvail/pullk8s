@@ -15,6 +15,7 @@ check(){
 pull(){
   image=$1
   imageName=${image/#k8s\.gcr\.io\//}
+  imageName=${image/#registry\.k8s\.io\/}
   if [ "$image"x == "$imageName"x ]
   then
     imageName=${image/#gcr\.io\/google_containers\//}
